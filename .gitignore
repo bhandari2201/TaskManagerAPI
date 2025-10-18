@@ -1,0 +1,147 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+*.pyc
+*.pyo
+*.pyd
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+static_root/
+media_root/
+
+# Django migrations (optional - comment out if you want to track migrations)
+# */migrations/*.py
+# */migrations/*.pyc
+# !*/migrations/__init__.py
+
+# Environment Variables
+.env
+.env.*
+!.env.example
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# Testing
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+.tox/
+nosetests.xml
+test_*.db
+
+# Documentation (Keep only README.md)
+QUICKSTART.md
+DETAILED_EXPLANATION.md
+API_ROUTES_MAP.md
+PROJECT_SUMMARY.md
+DELIVERABLES.md
+LIVE_TESTING_GUIDE.md
+START_HERE.md
+# Keep README.md - it's essential!
+
+# Helper Scripts (optional - remove if you want to track these)
+setup_demo_data.py
+run.sh
+
+# OpenAPI Schema
+schema.yml
+schema.yaml
+
+# OS Specific
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Backup files
+*.bak
+*.swp
+*~
+*.orig
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# Webpack / Node (if using frontend)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Security
+*.pem
+*.key
+*.crt
+secrets.json
+
+# Database dumps
+*.sql
+*.dump
+*.sqlite
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyCharm
+.idea/
+
+# Rope
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
